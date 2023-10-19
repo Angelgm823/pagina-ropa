@@ -15,6 +15,12 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'welcome');
 
+Route::view('/contacto', 'contacto');
+
+Route::view('/ubicacion', 'ubicacion');
+
+Route::view('/quienes-somos', 'somos');
+
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
     ->name('dashboard');
