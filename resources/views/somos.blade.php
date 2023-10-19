@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>¿Quienes somos?</title>
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
     <h1 align="center">¿Quienes somos?</h1>
@@ -24,7 +25,7 @@
     <footer>
         <p align="center">&copy; Todos los derechos ITIZ</p>
         <a href="https://www.facebook.com/profile.php?id=100082224369300"><img src="imagenes/facebook.png" alt="facebook" width="50px" height="50px"></a>
-        <a href="https://www.instagram.com/angelgm1700/"><img src="imagenes/instagram.png" alt="instagram" width="50px" height="50px"></a>
+        <a href="https://www.instagram.com/angelgm1700/" width="50px" height="50px"><img src="imagenes/instagram.png" alt="instagram" width="50px" height="50px"></a>
         <a href="https://www.paypal.com/mx/home"><img align="left" src="imagenes/pagos.png" alt="pagos" width="150px" height="50px"></a>
     </footer>
 </body>
