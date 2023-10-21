@@ -8,6 +8,9 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
+    @if (Route::has('somos'))
+                <livewire:welcome.navigation />
+            @endif
     <h1 align="center">¿Quienes somos?</h1>
 
     <section>
